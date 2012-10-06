@@ -1,29 +1,31 @@
 =head0 *Preface
 
-I<Modern Perl> is one way to describe the way the world's most effective Perl 5
-programmers work. They use language idioms. They take advantage of the CPAN.
-They show good taste and craft to write powerful, maintainable, scalable,
-concise, and effective code. You can learn these skills too!
+I<Modern Perl> est un moyen de décrirer la façon dont les programmeurs en Perl 5 les
+plus efficaces du monde travaillent. Ils utilisent des idiomes du langage. Ils tirent 
+partie de CPAN. Ils font preuve de bon goût et d'astuce pour écrire du code puissant,
+maintenable, capable de monter en charge, concis et efficace. Vous aussi, vous pouvez
+acquérir ces aptitudes !
 
-Perl first appeared in 1987 as a simple tool for system administration. Though
-it began by declaring and occupying a comfortable niche between shell scripting
-and C programming, it has become a powerful, general-purpose language family.
-Perl 5 has a solid history of pragmatism and a bright future of polish and
-enhancementN<Perl 6 is a reinvention of programming based on the solid
-principles of Perl, but it's a subject of another book.>.
+Perl a d'abord fait son apparition en 1897 en tant que simple outil pour l'administration
+système. Bien qu'il débuta en déclarant et en occupant une niche confortable entre l'écriture de
+script shell et la programmation C, il est devenu un langage puissant et généraliste.
+Perl 5 possède une solide histoire de pragmatisme et un avenir brillant fait d'affinage
+et d'améliorationN<Perl 6 est une réinvention de la programmation s'appuyant sur
+les principes de Perl, mais ceci serait le sujet d'un autre livre.>.
 
-Over Perl's long history--especially the 17 years of Perl 5--our understanding
-of what makes great Perl programs has changed. While you can write productive
-programs which never take advantage of all the language has to offer, the
-global Perl community has invented, borrowed, enhanced, and polished ideas and
-made them available to anyone willing to learn them.
+Durant la longue histoire de Perl - spécialement les 17 années de Perl 5 - notre
+compréhension de ce qui fait de remarquables programmes Perl a changé. Bien que 
+vous puissiez écrire des programmes productifs sans jamais tirer parti de tout ce
+que le langage offre, la communauté Perl dans son ensemble a inventé, emprunté,
+amélioré et affiné des idées et les a rendues disponibles pour quiconque souhaite
+les apprendre.
 
-=head1 Running Modern Perl
+=head1 Exécuter Modern Perl
 
-The C<Modern::Perl> module from the CPAN (L<cpan>) asks Perl to warn of dubious
-constructs and typos and will enable new features introduced in modern releases
-of Perl 5. Unless otherwise mentioned, code snippets always assume the basic
-skeleton of a program:
+Le module C<Modern::Perl> de CPAN (L<cpan>) demande à Perl de signaler les constructions
+douteuses et les fautes de frappe et active les nouvelles fonctionnalités introduites dans
+les versions modernes de Perl 5. Sauf mention contraire, les extraits de code supposent
+toujours l'utilisation du squelette de base de programme suivant :
 
 =begin programlisting
 
@@ -34,20 +36,20 @@ skeleton of a program:
 
 =end programlisting
 
-... which is equivalent to:
+... qui est équivalent à :
 
 =begin programlisting
 
     #!/usr/bin/env perl
 
-    use 5.012;      # implies "use strict;"
+    use 5.012;      # implique "use strict;"
     use warnings;
     use autodie;
 
 =end programlisting
 
-Some examples use testing functions such as C<ok()>, C<like()>, and C<is()>
-(L<testing>). These programs follow the pattern:
+Certains exemples utilisent des fonctions de test telles que C<ok()>, C<like()> et C<is()>
+(L<testing>). Ces programmes suivent le canevas suivant :
 
 =begin programlisting
 
@@ -56,30 +58,31 @@ Some examples use testing functions such as C<ok()>, C<like()>, and C<is()>
     use Modern::Perl;
     B<use Test::More;>
 
-    # example code here
+    # code d'exemple ici
 
-    B<done_testing();>
+    B<realiser_les_tests();>
 
 =end programlisting
 
-At the time of writing, the current stable Perl 5 release family is Perl 5.14.
-The examples in this book work best with Perl 5.12.0 or newer. Many examples
-will work on older versions of Perl 5 with modest changes, but you will have
-more difficulty with anything older than 5.10.0.
+Au moment de l'écriture, la famille de version stable de Perl 5 est Perl 5.14.
+Les exemples de ce livre fonctionnent mieux avec Perl 5.12.0 ou une version plus
+récente. De nombreux exemples fonctionneront avec des versions plus anciennes de Perl 5
+après quelques adaptations mineures, mais vous rencontrerez davantage de difficultés
+avec toute version plus ancienne que la 5.10.0.
 
 X<Strawberry Perl>
 X<ActivePerl>
 X<perlbrew>
 X<CPAN; C<App::perlbrew>>
 
-If you have no Perl 5 installed (or if you have an old version installed), you
-can install a newer release yourself. Windows users, download Strawberry Perl
-from U<http://www.strawberryperl.com/> or ActivePerl from
-U<http://www.activestate.com/activeperl>. Users of other operating systems with
-Perl 5 already installed (and a C compiler and the other development tools),
-start by installing the CPAN module C<App::perlbrew>N<See
+Si vous n'avez pas Perl 5 installé (ou si vous avez une vieille version d'installée), vous
+pouvez installer une version plus récente vous-même. Pour les utilisateurs de Windows, téléchargez
+Strawberry Perl sur U<http://www.strawberryperl.com/> ou ActivePerl sur
+U<http://www.activestate.com/activeperl>. Les utilisateurs des autres systèmes
+d'exploitation dans lequel Perl 5 est déjà installé (ainsi qu'un compilateur C et d'autres
+outils de développement) commenceront pas installer le module CPAN C<App::perlbrew>N<Voir
 U<http://search.cpan.org/perldoc?App::perlbrew> for installation
-instructions.>.
+les instructions.>.
 
 C<perlbrew> allows you to install and manage multiple versions of Perl 5. This
 allows you to switch between versions of Perl 5 as well as to install Perl 5
@@ -87,7 +90,7 @@ and CPAN modules in your home directory without affecting the system's version.
 If you've ever had to beg your system administrator for permission to install
 software, you know how much easier your life can be now.
 
-=head1 Credits
+=head1 Remerciements
 
 This book would not have been possible without questions, comments,
 suggestions, advice, wisdom, and encouragement from many, many people. In
