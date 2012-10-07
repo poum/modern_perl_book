@@ -1,4 +1,4 @@
-=head1 Context
+=head1 Contexte
 
 Z<context_philosophy>
 

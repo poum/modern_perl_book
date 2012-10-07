@@ -1,20 +1,21 @@
-=head0 The Perl Philosophy
+=head0 La philosophie de Perl
 
-Perl gets things done--it's flexible, forgiving, and malleable.  Capable
-programmers use it every day for everything from one-liners and one-off
-automations to multi-year, multi-programmer projects.
+Perl rend les choses faisables - il est flexible, indulgent et maléable.
+Des programmeurs compétents l'utilisent tous les jours pour des tâches 
+de tous ordres allant des automatisations en une ligne et jetables à des 
+projets de plusieurs années réalisés par de nombreux programmeurs.
 
-Perl is pragmatic. You're in charge. You decide how to solve your problems and
-Perl will mold itself to do what you mean, with little frustration and no
-ceremony.
+Perl est pragmatique. Vous avez le contrôle. Vous décidez comment résoudre vos
+problèmes et Perl s'adaptera pour faire ce que vous voulez, avec peu de frustration et 
+sans cérémonie.
 
-Perl will grow with you. In the next hour, you'll learn enough to write real,
-useful programs--and you'll understand I<how> the language works and I<why> it
-works as it does. Modern Perl takes advantage of this knowledge and the
-combined experience of the global Perl community to help you write working,
-maintainable code.
+Perl grandira avec vous. Dans une heure, vous en aurez appris suffisamment pour
+écrire de vrais programmes utiles - et vous comprendrez I<comment> le langage
+fonctionne et I<pourquoi> il fonctionne de cette façon. Modern Perl tire parti
+de cette connaissance et de l'expérience combinée de la communauté Perl dans son
+ensemble pour vous aider à écrire du code maintenable qui fonctionne.
 
-First, you need to know how to learn more.
+Mais d'abord, vous avez besoin de savoir comment en apprendre plus.
 
 L<perldoc>
 
