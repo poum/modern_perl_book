@@ -75,27 +75,27 @@ X<ActivePerl>
 X<perlbrew>
 X<CPAN; C<App::perlbrew>>
 
-Si vous n'avez pas Perl 5 installé (ou si vous avez une vieille version d'installée), vous
-pouvez installer une version plus récente vous-même. Pour les utilisateurs de Windows, téléchargez
+Si Perl 5 n'est pas installé (ou si vous avez une vieille version d'installée), vous
+pouvez installer vous-même une version plus récente. Pour les utilisateurs de Windows, téléchargez
 Strawberry Perl sur U<http://www.strawberryperl.com/> ou ActivePerl sur
 U<http://www.activestate.com/activeperl>. Les utilisateurs des autres systèmes
-d'exploitation dans lequel Perl 5 est déjà installé (ainsi qu'un compilateur C et d'autres
+d'exploitation dans lesquels Perl 5 est déjà installé (ainsi qu'un compilateur C et d'autres
 outils de développement) commenceront pas installer le module CPAN C<App::perlbrew>N<Voir
-U<http://search.cpan.org/perldoc?App::perlbrew> for installation
-les instructions.>.
+U<http://search.cpan.org/perldoc?App::perlbrew> pour les instructions d'installation.>.
 
-C<perlbrew> allows you to install and manage multiple versions of Perl 5. This
-allows you to switch between versions of Perl 5 as well as to install Perl 5
-and CPAN modules in your home directory without affecting the system's version.
-If you've ever had to beg your system administrator for permission to install
-software, you know how much easier your life can be now.
+C<perlbrew> vous permet d'installer et de gérer plusieurs versions de Perl 5. Il vous
+permettra aussi de passer d'une version de Perl 5 à l'autre ainsi que d'installer Perl 5
+et des modules de CPAN dans votre répertoire personnel sans affecter la version utilisée par
+le système. Si vous avez déjà eu à demander à votre administrateur système la permission d'installer
+un logiciel, vous êtes en mesure de voir comment ceci va rendre votre vie beaucoup plus simple dorénavant.
 
 =head1 Remerciements
 
-This book would not have been possible without questions, comments,
-suggestions, advice, wisdom, and encouragement from many, many people. In
-particular, the author and editor thank:
+Ce livre n'aurait pas été possible sans les questions, les commentaires,
+les suggestions, les conseils, la sagesse et les encouragements de beaucoup,
+beaucoup de personnes. En particulier, l'auteur et l'éditeur remercient:
 
 L<credits>
 
-Any remaining errors are the fault of the stubborn author.
+Toutes les erreurs résiduelles sont inputables à l'obstination de l'auteurN<ou, plus probablement
+aux lacunes et aux défaillances du traducteur>.
