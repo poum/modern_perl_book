@@ -1,5 +1,6 @@
-=head0 *Preface
+=encoding utf-8
 
+=head1 Préface
 I<Modern Perl> est un moyen de décrirer la façon dont les programmeurs en Perl 5 les
 plus efficaces du monde travaillent. Ils utilisent des idiomes du langage. Ils tirent 
 partie de CPAN. Ils font preuve de bon goût et d'astuce pour écrire du code puissant,
