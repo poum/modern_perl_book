@@ -1,4 +1,4 @@
-=head0 La philosophie de Perl
+=head1 La philosophie de Perl
 
 Perl rend les choses faisables - il est flexible, indulgent et maléable.
 Des programmeurs compétents l'utilisent tous les jours pour des tâches 
@@ -11,9 +11,9 @@ sans cérémonie.
 
 Perl grandira avec vous. Dans une heure, vous en aurez appris suffisamment pour
 écrire de vrais programmes utiles - et vous comprendrez I<comment> le langage
-fonctionne et I<pourquoi> il fonctionne de cette façon. Modern Perl tire parti
-de cette connaissance et de l'expérience combinée de la communauté Perl dans son
-ensemble pour vous aider à écrire du code maintenable qui fonctionne.
+fonctionne et I<pourquoi> il fonctionne de cette façon. Modern Perl tire partie
+de cette connaissance et de l'expérience mutualisée de toute la communauté Perl 
+pour vous aider à écrire du code maintenable qui fonctionne.
 
 Mais d'abord, vous avez besoin de savoir comment en apprendre plus.
 
