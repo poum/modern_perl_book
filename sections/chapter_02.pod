@@ -1,20 +1,23 @@
-=head0 Perl and Its Community
+=encoding utf-8
 
-Perl 5's greatest accomplishment is the huge amount of reusable libraries
-developed for it. Where Perl 4 had forks to connect to databases such as Oracle
-and Sybase, for example, Perl 5 had a real extension mechanism. Larry wanted
-people to create and maintain their own extensions without fragmenting Perl
-into thousands of incompatible pidgins--and it worked.
+=head0 Perl et sa communauté
 
-That technical accomplishment was almost as important as the growth of a
-community around Perl 5. I<People> write libraries. I<People> build on the work
-of other people. I<People> make a community worth joining and preserving and
-expanding.
+La plus grande réussite de Perl 5 est le nombre colossal de bibliothèques
+réutilisables développées pour lui. Alors que Perl 4 possède des connecteurs
+pour se connecter aux bases de données telles qu'Oracle et Sybase, par exemple,
+Perl 5 possède un véritable mécanisme d'extension. Larry voulait que les gens
+créent et maintiennent leur propres extensions sans fragmenter Perl en millier
+de dialectes incompatibles -- et ça a marché.
 
-The Perl community is strong and healthy. It welcomes willing participants at
-all levels, from novices to core developers. Take advantage of the knowledge
-and experience of countless other Perl programmers, and you'll become a better
-programmer.
+Cet accomplissement technique était presque aussi important que le développement
+d'une communauté autour de Perl 5. I<Les gens> écrivent des bibliothèques. I<Les gens>
+construisent en s'appuyant sur le travail d'autres gens. I<Les gens> constituent
+une communauté qui vaut la peine d'être rejointe, préservée et développée.
+
+La communauté Perl est forte et vigoureuse. Elle accueille ceux qui veulent
+participer quel que soit leur niveau, des novices aux développeurs du noyau.
+Tirez parti de la connaissance et de l'expérience d'innombrables autres programmeurs
+Perl et vous deviendrez un meilleur programmeur.
 
 L<cpan>
 
