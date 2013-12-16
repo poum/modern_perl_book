@@ -1,4 +1,4 @@
-=utf8
+=utf-8
 =head1 La philosophie de Perl
 
 Perl rend les choses faisables - il est flexible, indulgent et maléable.
