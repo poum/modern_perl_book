@@ -1,19 +1,20 @@
-=head0 Objects
+=head0 Objets
 
-Programming is a management activity. The larger the program, the more details
-you must manage. Our only hope to manage this complexity is to exploit
-abstraction (treating similar things similarly) and encapsulation (grouping
-related details together).
+La programmation est une activité de gestion. Plus le programme est grand, 
+plus vous devez gérer de détails. Notre seul espoir de gérer cette complexité
+est de tirer parti de l'abstraction (traiter de manière simulaire des choses 
+similaires) et de l'encapsulation (regrouper ensemble des choses liées entre elles).
 
 X<OO>
 X<objects>
 X<OO; classes>
 X<classes>
 
-Functions alone are insufficient for large problems. Several techniques group
-functions into units of related behaviors. One popular technique is I<object
-orientation> (OO), or I<object oriented programming> (OOP), where programs work
-with I<objects>--discrete, unique entities with their own identities.
+Les fonctions seules sont insuffisantes pour des problèmes importants. Plusieurs
+techniques permettent de regrouper des fonctions en unité de comportement lié.
+Une technique populaire est l'I<orientation objet> (OO), ou I<programmation orientée objet> 
+(OOP) avec laquelle les programmes fonctionnent avec des I<objets> -- des entités 
+discrètes et uniques dotées de leur propre identité.
 
 L<moose>
 

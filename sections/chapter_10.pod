@@ -1,11 +1,12 @@
-=head0 Perl Beyond Syntax
+=head0 Perl au-delà de la syntaxe
 
-Baby Perl will only get you so far. Language fluency allows you to use the
-natural patterns and idioms of the language. Effective programmers understand
-how Perl's features interact and combine.
+Le bébé Perl ne vous amènera pas plus loin. La maîtrise du langage vous
+permet d'utiliser les motifs naturels et les idiomes du langage. Les
+programmeurs efficaces comprennent comment les fonctionnalités de Perl
+interagissent et se combinent.
 
-Prepare for the second learning curve of Perl: Perlish thinking. The result is
-concise, powerful, and Perlish code.
+Préparez-vous pour la seconde courbe d'apprentissage de Perl: penser en Perl. Le résultat
+est du code Perl concis et puissant.
 
 L<idioms>
 

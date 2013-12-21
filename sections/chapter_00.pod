@@ -2,7 +2,7 @@
 
 =head0 Préface
 
-I<Modern Perl> est un moyen de décrirer la façon dont les programmeurs en Perl 5 les
+I<Perl moderne> est un moyen de décrire la façon dont les programmeurs en Perl 5 les
 plus efficaces du monde travaillent. Ils utilisent des idiomes du langage. Ils tirent 
 partie de CPAN. Ils font preuve de bon goût et d'astuce pour écrire du code puissant,
 maintenable, capable de monter en charge, concis et efficace. Vous aussi, vous pouvez
@@ -12,7 +12,7 @@ Perl a d'abord fait son apparition en 1897 en tant que simple outil pour l'admin
 système. Bien qu'il débuta en déclarant et en occupant une niche confortable entre l'écriture de
 script shell et la programmation C, il est devenu un langage puissant et généraliste.
 Perl 5 possède une solide histoire de pragmatisme et un avenir brillant fait d'affinage
-et d'améliorationN<Perl 6 est une réinvention de la programmation s'appuyant sur
+et d'amélioration N<Perl 6 est une réinvention de la programmation s'appuyant sur
 les principes de Perl, mais ceci serait le sujet d'un autre livre.>.
 
 Durant la longue histoire de Perl - spécialement les 17 années de Perl 5 - notre
@@ -99,5 +99,5 @@ beaucoup de personnes. En particulier, l'auteur et l'éditeur remercient:
 
 L<credits>
 
-Toutes les erreurs résiduelles sont inputables à l'obstination de l'auteurN<ou, plus probablement
+Toutes les erreurs résiduelles sont imputables à l'obstination de l'auteur N<ou, plus probablement
 aux lacunes et aux défaillances du traducteur>.

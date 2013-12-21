@@ -1,18 +1,19 @@
-=head0 Style and Efficacy
+=head0 Style et efficacité
 
-Quality matters.
+La qualité compte.
 
-Programs have bugs. Programs need maintenance and expansion. Programs have
-multiple programmers.
+Les programmes ont des bugs. Les programmes nécessitent une maintenance et
+des évolutions. Les programmes ont de nombreux programmeurs.
 
-Programming well requires us to find a balance between getting the job done and
-allowing us to do so well into the future. We can trade any of time, resources,
-and quality for any other. How well we do that determines our skill as
-pragmatic craftworkers.
+Bien programmer nécessite que nous trouvions un équilibre entre réaliser le
+travail et permettre de faire aussi bien à l'avenir. Nous pouvons échanger du temps,
+des ressources ou de la qualité par n'importe quel autre. Mieux nous réalisons
+ça, meilleurs artisans pragmatiques nous sommes.
 
-Understanding Perl is important. So is cultivating a sense of good taste. The
-only way to do so is to practice maintaining code and reading and writing great
-code. This path has no shortcuts, but this path does have guideposts.
+Comprendre Perl est important. Ainsi que cultiver le sens du bon goût. La
+deule façon d'y parvenir consiste à pratiquer la maintenance de code, la
+lecture et l'écriture de bon code. Cette voie ne possède pas de raccourci mais
+il existe des panneaux indicateurs.
 
 L<style>
 

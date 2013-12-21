@@ -1,9 +1,10 @@
-=head0 What to Avoid
+=head0 Que faut-il éviter ?
 
-Perl 5 isn't perfect. Some features are difficult to use correctly. Otherwise
-have never worked well. A few are quirky combinations of other features with
-strange edge cases. While you're better off avoiding these features, knowing
-why to avoid them will help you find better solutions.
+Perl 5 n'est pas parfait. Certaines fonctionnalités sont difficiles à utiliser
+correctement. D'autres n'ont jamais fonctionné de manière satisfaisante. Quelques unes
+sont des combinaisons bisarres d'autres fonctionnalités avec des effets de bord
+étranges. Alors qu'il est préférable d'éviter ces fonctionnalités, savoir pourquoi
+il faut les éviter vous aidera à trouver de meilleures solutions.
 
 L<barewords>
 
